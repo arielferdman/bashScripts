@@ -32,5 +32,5 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose
 
 sudo apt install -y unzip
 
-sudo apt autoremove
+sudo apt autoremove -y
 
