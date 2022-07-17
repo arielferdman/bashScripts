@@ -6,7 +6,7 @@ git commit -m "gitify initial commit"
 
 RepoName=$(echo $(pwd) | awk -F/  '{print FS $NF}' | { read temp; echo "${temp:1}"; })
 
-PersonalGithubToken="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"
+PersonalGithubToken="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"
 
 curl -u arielferdman:"$PersonalGithubToken" https://api.github.com/user
 
